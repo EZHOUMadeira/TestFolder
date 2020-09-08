@@ -1,23 +1,32 @@
+package Madeira.cs;
+
+/**
+ * Author:Ellie Zhou
+ * Date: 9/8/2020
+ **/
+
 public class Main {
+
     public static void main(String[] args) {
-        /*
-        What's happening
-        We declared a string called myString
-        We gave myString the value hello world
-        We re-assigned myString to be hello world
-        We declared And assigned the value of myString1 to Hello world 1
-         */
+
+        String myString1 = "Hi";
+        System.out.println(myString1);
+        myString1 = "bye";
+        System.out.println(myString1);
 
 
-       String myString;
-       myString = "Hello world!";
-       myString = "Hello new world";
-       String myString1 = "Hello world 1";
+        String myString2 = "I am Ellie";
+        System.out.println(myString2);
+        myString2 = "I am Aashna";
+        System.out.println(myString2);
 
-        System.out.println(myString);
-        System.out.println("i love cs");
+        String myString3 = "I am from Beijing";
+        System.out.println(myString3);
+        myString3 = "I am from Shanghai";
+        System.out.println(myString3);
+        
 
-        System.out.println(myString1.length());
-        System.out.println(myString1.charAt(12));
+
+	// write your code here
     }
 }
