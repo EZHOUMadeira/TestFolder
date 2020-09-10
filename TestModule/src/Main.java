@@ -31,7 +31,35 @@ public class Main {
         System.out.println(myString1.charAt(1));
         String myString3lower=myString3.toLowerCase();
         System.out.println(myString3lower);
+	
 	    
+	    
+	 /*
+        Lab2
+        Author: Ellie Zhou
+        Date: 9/10
+         */
+
+        Scanner myScanner = new Scanner(System.in);
+        String myScannedInput = myScanner.nextLine();
+        System.out.println("Greetings, "+myScannedInput);
+
+        Scanner myScanner1 = new Scanner(System.in);
+        String myScannedInput1 = myScanner.nextLine();
+        System.out.println(myScannedInput1);
+        System.out.println("One call away, "+myScannedInput1);
+
+        Scanner myScanner2 = new Scanner(System.in);
+        String myScannedInput2 = myScanner.nextLine();
+        System.out.println(myScannedInput2);
+        System.out.println("5666 days, "+myScannedInput2);
+
+
+        /**
+         * Challenge problems
+         * Author: Ellie Zhou
+         * 9/10
+         */
 	
 	
 
